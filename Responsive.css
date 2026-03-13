@@ -1,0 +1,107 @@
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-item {
+        flex-direction: row !important;
+    }
+
+    .timeline-content {
+        width: calc(100% - 60px);
+        margin-left: 60px;
+    }
+
+    .timeline-dot {
+        left: 20px;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    /* Menú Hamburguesa visible en móvil */
+    .menu-toggle {
+        display: flex;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: rgba(5, 8, 15, 0.98);
+        backdrop-filter: blur(20px);
+        flex-direction: column;
+        padding: 100px 40px 40px;
+        gap: 30px;
+        border-left: 2px solid rgba(0, 240, 255, 0.3);
+        transition: right 0.4s ease-in-out;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+        padding: 15px 20px;
+        border: 1px solid rgba(0, 240, 255, 0.2);
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .nav-links a:hover {
+        background: rgba(0, 240, 255, 0.1);
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .section-container {
+        padding: 60px 20px;
+    }
+
+    .terminal-content h1 {
+        font-size: 28px;
+    }
+
+    .terminal-content .role {
+        font-size: 18px;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .project-card {
+        padding: 30px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta Información General -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la Página -->
+    <title>Alex Medina | Frontend Developer Junior</title>
+    <!-- Descripción de la Página -->
+    <meta name="description" content="Alex Medina| Portafolio con proceso de creacion de proyectos">
+    <meta name="author" content="Edwin Alexander Medina Martinez">
+    <meta name="keywords" content="Frontend Developer junior, Web Developer junior, HTML, CSS, JavaScript, React, Node.js, Portfolio">
+    <!-- Meta para SEO -->
+    <meta name="robots" content="follow, index"/>
+    <link rel="canonical" href="https://alexpruebag25.github.io/Portafolio-Profile/"/>
+    <!-- Seguridad -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff"/>
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Meta Tags para Redes Sociales -->
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Alexander Medina - Frontend Developer Junior">   
+    <meta property="og:description" content="Frontend Developer Junior | Learning React & Node.js | Portafolio con proceso de creación de proyectos">
+    <meta property="og:image" content="images/">
+    <meta property="og:url" content="https://alexpruebag25.github.io/Portafolio-Profile">
+     
+    <!-- Enlaces a Estilos CSS -->
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <script src="JavaScript.js" defer></script>
+    <!-- Logotipo que va al lado del título (icono en la pestaña del navegador) -->
+    <!-- Favicon (Agrega tu favicon después) -->
+    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+</head>
+<body>
+    <!-- ==================== HEADER ==================== -->
+    <header>
+        <nav>
+    <div class="logo">
+    <img src="images/logo-AM.png" alt="Alex Medina">
+    </div>
+    
+    <!-- Menú Hamburguesa (solo móvil) -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+        <a href="#inicio">home</a>
+        <a href="#sobre-mi">about</a>
+        <a href="#experiencia">experience</a>
+        <a href="#habilidades">skills</a>
+        <a href="#proyectos">projects</a>
+        <a href="#educacion">education</a>
+        <a href="#contacto">contact</a>
+    </div>
+</nav>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="inicio">
+        <div class="hero-grid">
+            <!-- Terminal Window -->
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <div class="terminal-dot dot-red"></div>
+                        <div class="terminal-dot dot-yellow"></div>
+                        <div class="terminal-dot dot-green"></div>
+                    </div>
+                    <div class="terminal-title">alexander Medina.dev</div>
+                </div>
+                <div class="terminal-content">
+                    <h1>
+                        <span class="greeting">Hola, soy</span><br>
+                        <span class="name">Alex Medina</span>
+                    </h1>
+                    <div class="role">
+                        Frontend Developer Junior<span class="cursor"></span>
+                    </div>
+                    
+                    <div class="code-block">
+                        <div class="code-line">
+                            <span class="keyword">const</span> 
+                            <span class="function">developer</span> = {
+                        </div>
+                        <div class="code-line" style="padding-left: 20px;">
+                            name: <span class="string">'Edwin Alexander Medina Mrtinez'</span>,
+                        </div>
+                        <div class="code-line" style="padding-left: 20px;">
+                            role: <span class="string">'Frontend Developer Junior'</span>,
+                        </div>
+                        <div class="code-line" style="padding-left: 20px;">
+                            location: <span class="string">'Tocancipá, Colombia'</span>,
+                        </div>
+                        <div class="code-line" style="padding-left: 20px;">
+                            stack: [<span class="string">'HTML5'</span>, <span class="string">'CSS3'</span>, <span class="string">'JavaScript'</span>],
+                        </div>
+                        <div class="code-line" style="padding-left: 20px;">
+                            learning: [<span class="string">'React'</span>, <span class="string">'Node.js'</span>],
+                        </div>
+                        <div class="code-line" style="padding-left: 20px;">
+                            goal: <span class="string">'Full Stack Developer'</span>
+                        </div>
+                        <div class="code-line">};</div>
+                        <div class="code-line"><span class="comment">// En aprendizaje continuo </span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Holographic Stats Card -->
+            <div class="holo-card">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-label">→ Experiencia Total</div>
+                        <div class="stat-value">8+ En logistica</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">→ En Desarrollo Junior (ADSO Sena)</div>
+                        <div class="stat-value">2024 - Presente</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">→ Objetivo</div>
+                        <div class="stat-value">Full Stack Developer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about-section" id="sobre-mi">
+        <div class="section-container">
+            <h2 class="section-title">about_me</h2>
+            <p class="section-subtitle">Mi historia y objetivo profesional</p>
+            
+            <div class="about-content">
+                <!-- ⚠️ EDITABLE: Puedes cambiar este texto según tu preferencia -->
+                <p>
+                    Estoy transformando mi carrera profesional: tras más de 8 años de experiencia en 
+                    logística de alta seguridad y transporte corporativo he descubierto mi vocación en 
+                    la tecnología y el código. Actualmente soy Tecnólogo en formación y estoy trasladando 
+                    la disciplina férrea, la puntualidad y la atención al detalle de mi experiencia previa 
+                    hacia el desarrollo de Software.
+                </p>
+                
+                <div class="about-highlight">
+                    <h3>🎯 Objetivo Profesional</h3>
+                    <p>
+                        Busco mi primera oportunidad como Frontend Developer Junior, 
+                        Desarrollador Junior o Auxiliar de Sistemas, donde pueda aportar 
+                        valor desde el día uno mientras continúo mi crecimiento hacia 
+                        Full Stack Development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section class="experience-section" id="experiencia">
+        <div class="section-container">
+            <h2 class="section-title">experience</h2>
+            <p class="section-subtitle">Mi trayectoria profesional</p>
+            
+            
+                <!-- Experience 1: Frontend Developer (Proyectos Estudiantiles)
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="experience-title">💻 Frontend Developer</h3>
+                        <p class="experience-company">Proyectos Estudiantiles SENA</p>
+                        <p class="experience-period">2024 - Presente</p>
+                        <p class="experience-description">
+                            Desarrollo de aplicaciones web funcionales como parte de mi formación 
+                            tecnológica. Proyecto destacado: "Punto Park U" - Sistema completo de 
+                            gestión de parqueadero con autenticación, panel administrativo y panel 
+                            de usuario desarrollado con HTML5, CSS3 y JavaScript.
+                        </p>
+                    </div>  -->
+
+                <!-- Experience 2: Thomas Greg and Sons -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="experience-title">🚗 Conductor de Gerencia</h3>
+                        <p class="experience-company">Thomas Greg and Sons</p>
+                        <p class="experience-period">Agosto 2025 - Presente</p>
+                        <p class="experience-description">
+                            Logística y transporte corporativo enfocado en cumplimiento de 
+                            itinerarios estrictos, seguridad del cliente y atención al detalle 
+                            en entornos de alta exigencia.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience 3: Derma Express -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="experience-title">🚗 Conductor</h3>
+                        <p class="experience-company">Derma Express</p>
+                        <p class="experience-period">Febrero 2025 - Agosto 2025 (7 meses)</p>
+                        <p class="experience-description">
+                            Responsable de transporte seguro y puntual, desarrollando habilidades 
+                            de planificación de rutas y gestión del tiempo bajo presión.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience 4: Hacienda Fontanar -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="experience-title">🚗 Conductor de Gerencia</h3>
+                        <p class="experience-company">Hacienda Fontanar</p>
+                        <p class="experience-period">Febrero 2021 - Febrero 2025 (4 años)</p>
+                        <p class="experience-description">
+                            Gestión de vehículos de gama alta con presentación personal impecable 
+                            y vocabulario profesional. Desarrollo de confiabilidad y excelencia en 
+                            servicio al cliente de alto perfil.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="skills-section" id="habilidades">
+        <div class="section-container">
+            <h2 class="section-title">skills</h2>
+            <p class="section-subtitle">Mi stack tecnológico actual y en expansión</p>
+            
+            <div class="skills-grid">
+                <!-- Frontend Skills -->
+                <div class="skill-card">
+                    <h3>Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 Semántico</li>
+                        <li>CSS3 (Flexbox, Grid, Animations)</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Responsive Design</li>
+                        <li>DOM Manipulation</li>
+                        <li>LocalStorage / SessionStorage</li>
+                    </ul>
+                </div>
+                
+                <!-- Tools & Workflow -->
+                <div class="skill-card">
+                    <h3>Tools & Workflow</h3>
+                    <ul class="skill-list">
+                        <li>Git / GitHub</li>
+                        <li>VS Code</li>
+                        <li>Chrome DevTools</li>
+                        <li>GitHub Pages</li>
+                        <li>AI Integration (Claude, Gemini)</li>
+                </div>
+                
+                <!-- Aprendiendo -->
+                <div class="skill-card">
+                    <h3>Currently Learning</h3>
+                    <ul class="skill-list">
+                        <li>React.js (Components, Hooks)</li>
+                        <li>Node.js + Express</li>
+                        <li>MongoDB / PostgreSQL</li>
+                        <li>RESTful APIs</li>
+                        <li>Full Stack Development</li>
+                        <li>Authentication (JWT)</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-card">
+                    <h3>Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li>Problem Solving</li>
+                        <li>Attention to Detail</li>
+                        <li>Team Collaboration</li>
+                        <li>Continuous Learning</li>
+                        <li>Work Under Pressure</li>
+                        <li>Customer Service Excellence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="projects-section" id="proyectos">
+        <div class="section-container">
+            <h2 class="section-title">projects</h2>
+            <p class="section-subtitle">Aplicación web funcional desarrollada</p>
+            
+             <!-- Proyecto 1: Crea tu Web con IA — Tutorial Profesional -->
+            <div class="project-card">
+                <h3>🌐 Crea tu Web con IA — Tutorial</h3>
+                <p>
+                    Un tutorial web completo e interactivo que enseña a crear páginas web desde cero 
+                    usando Inteligencia Artificial como herramienta de apoyo. Cada módulo explica el 
+                    (que), el (cómo) y el (por qué) de cada tecnología — no solo cómo copiar código.
+                    <br>
+                    Incluye advertencias reales sobre los **límites de la IA** y fuentes oficiales para 
+                    verificar siempre lo que genera.  
+                </p>
+                <div class="project-tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">LocalStorage</span>
+                    <span class="tag">Responsive Design</span>
+                    <span class="tag">UX/UI</span>
+                </div>
+                <!-- ⚠️ EDITABLE: Cuando tengas el proyecto en GitHub, agrega los links aquí -->
+                <!-- 
+                <div class="project-links">
+                    <a href="#" class="project-link" target="_blank">🔗 Ver Demo</a>
+                    <a href="#" class="project-link" target="_blank">💻 Ver Código</a>
+                </div>
+                -->
+            </div>
+
+            <p class="section-subtitle">Aplicación en desarrollo</p>
+
+            <!-- Proyecto 2: Punto Park U -->
+            <div class="project-card">
+                <h3>🅿️ Punto Park U - Sistema de Gestión de Parqueadero</h3>
+                <p>
+                    Aplicación web completa desarrollado con HTML5, CSS3 y JavaScript al momento,
+                    para gestión integral de parqueadero desarrollada 
+                    como proyecto estudiantil del SENA. Incluye sistema de autenticación con 
+                    validaciones robustas, panel administrativo con gestión dinámica de tarifas 
+                    y horarios, panel de usuario con sistema de reservas en tiempo real, gestión 
+                    de múltiples vehículos (carros, motos, bicicletas), y sistema de notificaciones 
+                    configurable. Diseño completamente responsive optimizado para experiencia 
+                    móvil y desktop.   
+                </p>
+                <div class="project-tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">LocalStorage</span>
+                    <span class="tag">Responsive Design</span>
+                    <span class="tag">UX/UI</span>
+                </div>
+                <!-- ⚠️ EDITABLE: Cuando tengas el proyecto en GitHub, agrega los links aquí -->
+                <!-- 
+                <div class="project-links">
+                    <a href="#" class="project-link" target="_blank">🔗 Ver Demo</a>
+                    <a href="#" class="project-link" target="_blank">💻 Ver Código</a>
+                </div>
+                -->
+            </div>
+
+            <!-- ============================================
+                 PROYECTO FUTURO: Propiedad Horizontal
+                 ============================================
+                 ⚠️ Este proyecto está comentado porque contiene 
+                 datos confidenciales. Descomenta cuando puedas 
+                 mostrarlo públicamente.
+            ============================================ -->
+            <!--
+            <div class="project-card">
+                <h3>🏢 Sistema Propiedad Horizontal</h3>
+                <p>
+                    Aplicación Full Stack para gestión de propiedad horizontal.
+                    Desarrollo con React.js en el frontend y Node.js + Express 
+                    en el backend. Base de datos MongoDB para gestión de residentes,
+                    pagos y comunicaciones.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">JWT Auth</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link" target="_blank">🔗 Ver Demo</a>
+                    <a href="#" class="project-link" target="_blank">💻 Ver Código</a>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section class="education-section" id="educacion">
+        <div class="section-container">
+            <h2 class="section-title">education</h2>
+            <p class="section-subtitle">Mi formación académica y certificaciones</p>
+            
+            <div class="education-grid">
+                <!-- SENA -->
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <h3>Tecnólogo en Análisis y Desarrollo de Software</h3>
+                    <p class="institution">Servicio Nacional de Aprendizaje (SENA)</p>
+                    <p class="period">Noviembre 2024 - Febrero 2027 (En curso)</p>
+                    <p class="description">
+                        Formación tecnológica en desarrollo de software con énfasis en 
+                        programación, bases de datos, desarrollo web e ingeniería de software.
+                    </p>
+                </div>
+
+                <!-- Bootcamp Python -->
+                <div class="education-card">
+                    <div class="education-icon">🐍</div>
+                    <h3>Bootcamp Python</h3>
+                    <p class="institution">Universidad Sergio Arboleda</p>
+                    <p class="period">Mayo 2024 - Octubre 2024</p>
+                    <p class="description">
+                        Programa intensivo de fundamentos de programación con Python, 
+                        estructuras de datos, algoritmos y desarrollo de aplicaciones.
+                    </p>
+                    <!-- ⚠️ NOTA: Certificado no mostrado públicamente por privacidad -->
+                </div>
+
+                <!-- Bachillerato -->
+                <div class="education-card">
+                    <div class="education-icon">📚</div>
+                    <h3>Bachillerato en Administración de Empresas</h3>
+                    <p class="institution">I.E.D. Rufino José Cuervo</p>
+                    <p class="period">Enero 2000 - Noviembre 2011</p>
+                    <p class="description">
+                        Educación primaria y secundaria completa con énfasis
+                        en administración de empresas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         TESTIMONIALS SECTION - OCULTA POR AHORA
+         ============================================
+         ⚠️ Esta sección está comentada porque aún no 
+         tienes recomendaciones en LinkedIn.
+         
+         CÓMO ACTIVARLA:
+         1. Consigue recomendaciones en LinkedIn
+         2. Elimina este comentario de apertura
+         3. Elimina el comentario de cierre (al final)
+         4. Edita el contenido con tus testimonials reales
+    ============================================ -->
+    <!--
+    <section class="testimonials-section" id="testimonials">
+        <div class="section-container">
+            <h2 class="section-title">testimonials</h2>
+            <p class="section-subtitle">Lo que dicen de mi trabajo</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "Alexander es extremadamente puntual y detallista en su trabajo..."
+                    </p>
+                    <p class="testimonial-author">- Nombre Apellido</p>
+                    <p class="testimonial-role">Cargo, Empresa</p>
+                </div>
+                
+                <! Agrega más testimonials aquí ->
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact-section" id="contacto">
+        <div class="section-container">
+            <h2 class="section-title">contact</h2>
+            <p class="section-subtitle">¿Hablamos? Estoy abierto a nuevas oportunidades</p>
+            
+            <div class="contact-grid">
+                <!-- Email -->
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h4>Email</h4>
+                    <p><a href="mailto:alexandermedi53h@gmail.com">alexandermedi53h@gmail.com</a></p>
+                </div>
+
+                <!-- Teléfono -->
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h4>Teléfono</h4>
+                    <p><a href="tel:+573003949455">+57 300 394 9455</a></p>
+                </div>
+
+                <!-- Ubicación -->
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h4>Ubicación</h4>
+                    <p>Tocancipá, Cundinamarca<br>Colombia</p>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/alexander-medina-684606251" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/AlexPruebaG25" target="_blank">💻 GitHub</a>
+                <!-- ⚠️ EDITABLE: Cambia "tu-usuario" por tu usuario real de GitHub -->
+            </div>
+
+            <!-- Download CV -->
+            <div class="download-cv">*
+                <!-- ⚠️ INSTRUCCIONES PARA DESCARGA DE CV:
+                     1. Sube tu CV (archivo PDF) a la carpeta raíz del proyecto
+                     2. Nómbralo: CV_Alexander_Medina.pdf
+                     3. Descomenta el botón de abajo
+                     4. El botón descargará automáticamente tu CV
+                -->
+                <!--
+                <a href="CV_Alexander_Medina.pdf" download class="btn-neon">
+                    📄 Descargar CV
+                </a>
+                -->
+                <p style="color: #666; font-family: 'Courier New', monospace; margin-top: 20px;">
+                    // CV disponible bajo solicitud
+                </p>
+            </div>
+        </div>
+    </section>
+     <!--Botón de volver al home-->
+    <div class="back-to-top">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+</div>
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="copyright">
+            <p>© 2025 Alexander Medina | Frontend Developer Junior</p>
+            <p style="margin-top: 10px;">Crafted with 💻 & ☕ | Powered by HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+</body>
+</html>
