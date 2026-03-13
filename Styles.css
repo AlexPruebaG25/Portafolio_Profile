@@ -111,9 +111,9 @@ nav::before {
     }
 }
 
-.logo { 
-    height: 5px;
-    width: 5px;
+.logo img {
+    height: 50px;
+    width: auto;
 }
 
 .nav-links {
